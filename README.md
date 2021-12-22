@@ -9,8 +9,7 @@
 1. Clone ou faça download deste repositório
 2. Renomeie o arquivo .env.example para .env
 2. Na pasta do projeto clonado, execute os seguintes comandos  
-   2.1 "composer install"   
-       2.1.1 Obs: Caso ocorra algum erro por versão do php ou falta de componentes, você pode rodar o comando composer install --ignore-platform-reqs
+   2.1 composer install    (obs: Caso ocorra algum erro por versão do php ou falta de componentes, você pode rodar o comando composer install --ignore-platform-reqs)
    2.2 php artisan migrate
    2.3 php artisan key:generate
 
